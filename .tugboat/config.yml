@@ -4,6 +4,7 @@ services:
         aliases: test
         http: true
         https: false
+        domain: "jamescbain.com"
         commands:
             init:
                 - echo "********** INIT **********"

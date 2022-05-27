@@ -2,7 +2,7 @@ services:
     apache:
         image: tugboatqa/httpd
         subpath: true
-        domain: "jamescbain.com"
+        domain: "tugboat.local"
         commands:
             init: ln -snf "${TUGBOAT_ROOT}" "${DOCROOT}"
             build: cat .tugboat/tugboat.txt
